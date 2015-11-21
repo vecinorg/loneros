@@ -1,4 +1,9 @@
-/* Index */
+/* Productos */
+.productos {
+  overflow-x: hidden;
+  height: 400px;
+  width: 90%;
+}
 .v-imagen-index {
   height: 350px;
   position: relative;
@@ -70,6 +75,7 @@
   color: #fff;
   font-size: 14px;
 }
+/* /Productos */
 
 /* Fuentes */
 .fuente-wendy {
