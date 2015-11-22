@@ -77,10 +77,72 @@
 }
 /* /Productos */
 
+/* Registro */
+.mc-field-group {
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+.mc-field-group input[type="email"] {
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+.mc-field-group ul {
+  margin-top: 20px;
+  list-style-type: none;
+}
+.mc-field-group ul li {
+  margin-left: -50px;
+}
+.mc-field-group ul li label {
+  margin-left: 5px;
+  font-size: 1em;
+  font-weight: 700;
+}
+.mc-field-group input[type="radio"] {
+  display:none;
+}
+.mc-field-group input[type="radio"] + label {
+  color: white;
+}
+.mc-field-group input[type="radio"] + label span {
+  display:inline-block;
+  width:19px;
+  height:19px;
+  margin:-1px 8px 0 0;
+  vertical-align:middle;
+  cursor:pointer;
+  -moz-border-radius:  50%;
+  border-radius:  50%;
+}
+.mc-field-group input[type="radio"] + label span {
+  background-color:white;
+}
+.mc-field-group input[type="radio"]:checked + label span{
+  background-color:black;
+}
+.mc-field-group input[type="radio"] + label span,
+.mc-field-group input[type="radio"]:checked + label span {
+  -webkit-transition:background-color 0.4s linear;
+  -o-transition:background-color 0.4s linear;
+  -moz-transition:background-color 0.4s linear;
+transition:background-color 0.4s linear;
+}
+/* /Registro */
+
 /* Fuentes */
 .fuente-wendy {
   font-family: 'Wendy One', sans-serif;
   font-weight: 400 !important;
+  font-size: 4.5em !important;
+}
+.fuente-3em {
+  font-size: 3em !important;
 }
 /* /Fuentes */
 
+/* Aux */
+.no-float {
+  float: none;
+}
+/* /Aux */
